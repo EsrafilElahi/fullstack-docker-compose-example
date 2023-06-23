@@ -9,7 +9,7 @@ COPY package*.json ./
 
 RUN npm install --silent
 
-# Copy app source code
+# Copy other source code
 COPY . .
 
 # Exports
