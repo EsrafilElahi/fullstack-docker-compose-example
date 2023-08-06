@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   # backend
-  server:
+  server: 
     build:
       context: ./server
       dockerfile: Dockerfile
